@@ -10,14 +10,48 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
-    
-    
-    
-    // Implement your functions here
-    
-    
-    
-    
+    func averageIsAbove75(a:Double, b:Double, c: Double) -> Bool{
+        
+        let newValue = (a+b+c)/3
+        if newValue > 75{
+            return true
+        }else{
+            return false
+        }
 
+    }
+
+    func passwordCombo(username: String, password: Int) -> String{
+        
+        let validUsers = ["Jerry", "Elaine", "Michael"]
+        
+        if validUsers.contains(username) && password % 3 == 0{
+            return "Welcome!"
+        }else{
+            return "Access Denied"
+        }
+    }
+    
+    func describe(emoji:String) -> String {
+        var emojiList = ["💋":"Kiss", "🐈":"Cat", "🐢":"Turtle", "👻":"Ghost", "🍕":"Pizza"]
+    
+        if emoji == "💋"{
+            return "Kiss"
+            
+        }else if emoji == "🐈"{
+            return "Cat"
+            
+        }else if emoji == "🐢"{
+            return "Turtle"
+            
+        }else if emoji  == "👻"{
+            return "Ghost"
+            
+        }else if emoji == "🍕"{
+            return "Pizza"
+    
+            }else{
+                return "Unknown"
+        }
+    }
 }

@@ -162,6 +162,7 @@
 				TargetAttributes = {
 					5BA61E9D1D22B68A00871321 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L2LP5P6TWN;
 						LastSwiftMigration = 0800;
 					};
 					5BA61EB11D22B68A00871321 = {
@@ -345,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2LP5P6TWN;
 				INFOPLIST_FILE = AllTheBasics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.AllTheBasics;
@@ -357,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2LP5P6TWN;
 				INFOPLIST_FILE = AllTheBasics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.AllTheBasics;
